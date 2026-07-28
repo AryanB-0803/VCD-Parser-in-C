@@ -1,0 +1,55 @@
+$date
+	Mon Jan  5 22:45:33 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tff_tb $end
+$var wire 1 ! qbar $end
+$var wire 1 " q $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$var reg 1 % t $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var wire 1 % t $end
+$var reg 1 " q $end
+$var reg 1 ! qbar $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+1$
+1#
+0"
+1!
+$end
+#5
+0#
+#10
+0!
+1"
+1#
+1%
+0$
+#15
+0#
+#20
+1!
+0"
+1#
+#25
+0#
+#30
+0!
+1"
+1#
