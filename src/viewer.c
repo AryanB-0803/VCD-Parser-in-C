@@ -42,7 +42,7 @@ void create_waveform(struct signal_details *sig, int y) {
       long t2 = sig->samples[i + 1].time;
       unsigned long val = sig->samples[i].val;
       unsigned long next_val = sig->samples[i + 1].val;
-      x1 = waveform_start + t1; // scale : 10ns = 5 cols
+      x1 = waveform_start + t1; 
       x2 = waveform_start + t2; // end point of line
       mvprintw(0, x1, "%lu", sig->samples[i].time);
       mvprintw(0, x2, "%lu", sig->samples[i + 1].time);
