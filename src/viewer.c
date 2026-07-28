@@ -132,9 +132,9 @@ void viewer(const struct vcd_data *db) {
       }
     }
     touchwin(win);
-    wnoutrefresh(stdscr); // stage stdscr's changes
+    wnoutrefresh(stdscr);
     wnoutrefresh(
-        win); // stage win's changes (drawn AFTER, so it "wins" the overlap)
+        win);
     doupdate();
     int ch = getch();
 
