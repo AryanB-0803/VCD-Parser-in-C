@@ -43,8 +43,6 @@ void create_waveform(struct signal_details *sig, int y, int offset_idx) {
              "%s", label);
   } else {
     for (int i = 0; i < sig->num_samples - 1 - offset_idx; i++) {
-      long t1 = sig->samples[i].time;
-      long t2 = sig->samples[i + 1].time;
       unsigned long val = sig->samples[i + offset_idx].val;
       unsigned long next_val = sig->samples[i + 1 + offset_idx].val;
       x1 = waveform_start + (sig->samples[i + offset_idx].time - t_ref);
